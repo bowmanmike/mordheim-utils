@@ -31,6 +31,32 @@
 </section>
 
 <section class="mb-4">
+	<h3 class="font-semibold text-xl text-center">Ranged Hit Modifiers</h3>
+	<table>
+		<tr>
+			<td>-1</td>
+			<td>Cover</td>
+			<td>If any part of the model is obscured by scenery or other models</td>
+		</tr>
+		<tr>
+			<td>-1</td>
+			<td>Long Range</td>
+			<td>Shooting at more than half of the weapon's max range</td>
+		</tr>
+		<tr>
+			<td>-1</td>
+			<td>Moving & Shooting</td>
+			<td>If model has moved at all, other than standing up or turning to face a target</td>
+		</tr>
+		<tr>
+			<td>+1</td>
+			<td>Large Target</td>
+			<td>If the target is labelled as Large, or whose main body is over 2" tall or wide</td>
+		</tr>
+	</table>
+</section>
+
+<section class="mb-4">
 	<h3 class="font-semibold text-xl text-center">Close Combat To Hit</h3>
 	<div class="flex items-center">
 		<p>Attacker's Weapon Skill</p>
