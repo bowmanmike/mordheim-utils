@@ -1,11 +1,12 @@
 <script lang="ts">
-	let collapsed: boolean = true;
+	import { slide } from 'svelte/transition';
 
 	const toggleCollapsed = () => {
 		collapsed = !collapsed;
 	};
 
 	export let title: string;
+	export let collapsed: boolean = true;
 </script>
 
 <section class="mb-4 rounded-md shadow-md m-2 p-2">
@@ -42,6 +43,8 @@
 		</button>
 	</div>
 	{#if !collapsed}
-		<slot />
+		<div transition:slide>
+			<slot />
+		</div>
 	{/if}
 </section>
