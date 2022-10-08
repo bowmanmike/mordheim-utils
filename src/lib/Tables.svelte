@@ -1,399 +1,526 @@
 <script>
-	import CollapsibleSection from './CollapsibleSection.svelte';
+  import CollapsibleSection from './CollapsibleSection.svelte';
 </script>
 
 <CollapsibleSection title="Ranged Weapons To Hit">
-	<table class="w-full">
-		<tr class="border-gray-800 border-b">
-			<td class="font-bold">BS Of Shooter</td>
-			<td>1</td>
-			<td>2</td>
-			<td>3</td>
-			<td>4</td>
-			<td>5</td>
-			<td>6</td>
-			<td>7</td>
-			<td>8</td>
-			<td>9</td>
-			<td>10</td>
-		</tr>
-		<tr>
-			<td>D6 Roll Needed</td>
-			<td>6</td>
-			<td>5</td>
-			<td>4</td>
-			<td>3</td>
-			<td>2</td>
-			<td>1</td>
-			<td>0</td>
-			<td>-1</td>
-			<td>-2</td>
-			<td>-3</td>
-		</tr>
-	</table>
+  <table class="w-full">
+    <tr class="border-gray-800 border-b">
+      <td class="font-bold">BS Of Shooter</td>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+      <td>4</td>
+      <td>5</td>
+      <td>6</td>
+      <td>7</td>
+      <td>8</td>
+      <td>9</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>D6 Roll Needed</td>
+      <td>6</td>
+      <td>5</td>
+      <td>4</td>
+      <td>3</td>
+      <td>2</td>
+      <td>1</td>
+      <td>0</td>
+      <td>-1</td>
+      <td>-2</td>
+      <td>-3</td>
+    </tr>
+  </table>
 </CollapsibleSection>
 
 <CollapsibleSection title="Ranged Hit Modifiers">
-	<table class="border-separate border-spacing-r-2">
-		<tr>
-			<td>-1</td>
-			<td>Cover</td>
-			<td>If any part of the model is obscured by scenery or other models</td>
-		</tr>
-		<tr>
-			<td>-1</td>
-			<td>Long Range</td>
-			<td>Shooting at more than half of the weapon's max range</td>
-		</tr>
-		<tr>
-			<td>-1</td>
-			<td>Moving & Shooting</td>
-			<td>If model has moved at all, other than standing up or turning to face a target</td>
-		</tr>
-		<tr>
-			<td>+1</td>
-			<td>Large Target</td>
-			<td>If the target is labelled as Large, or whose main body is over 2" tall or wide</td>
-		</tr>
-	</table>
+  <table class="border-separate border-spacing-r-2">
+    <tr>
+      <td>-1</td>
+      <td>Cover</td>
+      <td>If any part of the model is obscured by scenery or other models</td>
+    </tr>
+    <tr>
+      <td>-1</td>
+      <td>Long Range</td>
+      <td>Shooting at more than half of the weapon's max range</td>
+    </tr>
+    <tr>
+      <td>-1</td>
+      <td>Moving & Shooting</td>
+      <td>If model has moved at all, other than standing up or turning to face a target</td>
+    </tr>
+    <tr>
+      <td>+1</td>
+      <td>Large Target</td>
+      <td>If the target is labelled as Large, or whose main body is over 2" tall or wide</td>
+    </tr>
+  </table>
 </CollapsibleSection>
 
 <CollapsibleSection title="Close Combat To Hit">
-	<div class="flex items-center">
-		<p>Attacker's Weapon Skill</p>
-		<table class="table-auto w-full">
-			<caption>Defender's Weapon Skill</caption>
-			<tr>
-				<td>X</td>
-				<td>1</td>
-				<td>2</td>
-				<td>3</td>
-				<td>4</td>
-				<td>5</td>
-				<td>6</td>
-				<td>7</td>
-				<td>8</td>
-				<td>9</td>
-				<td>10</td>
-			</tr>
-			<tr class="bg-gray-200">
-				<td>1</td>
-				<td>4</td>
-				<td>4</td>
-				<td>5</td>
-				<td>5</td>
-				<td>5</td>
-				<td>5</td>
-				<td>5</td>
-				<td>5</td>
-				<td>5</td>
-				<td>5</td>
-			</tr>
-			<tr>
-				<td>2</td>
-				<td>3</td>
-				<td>4</td>
-				<td>4</td>
-				<td>4</td>
-				<td>5</td>
-				<td>5</td>
-				<td>5</td>
-				<td>5</td>
-				<td>5</td>
-				<td>5</td>
-			</tr>
-			<tr class="bg-gray-200">
-				<td>3</td>
-				<td>3</td>
-				<td>3</td>
-				<td>4</td>
-				<td>4</td>
-				<td>4</td>
-				<td>4</td>
-				<td>5</td>
-				<td>5</td>
-				<td>5</td>
-				<td>5</td>
-			</tr>
-			<tr>
-				<td>4</td>
-				<td>3</td>
-				<td>3</td>
-				<td>3</td>
-				<td>4</td>
-				<td>4</td>
-				<td>4</td>
-				<td>4</td>
-				<td>4</td>
-				<td>5</td>
-				<td>5</td>
-			</tr>
-			<tr class="bg-gray-200">
-				<td>5</td>
-				<td>3</td>
-				<td>3</td>
-				<td>3</td>
-				<td>3</td>
-				<td>4</td>
-				<td>4</td>
-				<td>4</td>
-				<td>4</td>
-				<td>4</td>
-				<td>4</td>
-			</tr>
-			<tr>
-				<td>6</td>
-				<td>3</td>
-				<td>3</td>
-				<td>3</td>
-				<td>3</td>
-				<td>3</td>
-				<td>4</td>
-				<td>4</td>
-				<td>4</td>
-				<td>4</td>
-				<td>4</td>
-			</tr>
-			<tr class="bg-gray-200">
-				<td>7</td>
-				<td>3</td>
-				<td>3</td>
-				<td>3</td>
-				<td>3</td>
-				<td>3</td>
-				<td>3</td>
-				<td>4</td>
-				<td>4</td>
-				<td>4</td>
-				<td>4</td>
-			</tr>
-			<tr>
-				<td>8</td>
-				<td>3</td>
-				<td>3</td>
-				<td>3</td>
-				<td>3</td>
-				<td>3</td>
-				<td>3</td>
-				<td>3</td>
-				<td>4</td>
-				<td>4</td>
-				<td>4</td>
-			</tr>
-			<tr class="bg-gray-200">
-				<td>9</td>
-				<td>3</td>
-				<td>3</td>
-				<td>3</td>
-				<td>3</td>
-				<td>3</td>
-				<td>3</td>
-				<td>3</td>
-				<td>3</td>
-				<td>4</td>
-				<td>4</td>
-			</tr>
-			<tr>
-				<td>10</td>
-				<td>3</td>
-				<td>3</td>
-				<td>3</td>
-				<td>3</td>
-				<td>3</td>
-				<td>3</td>
-				<td>3</td>
-				<td>3</td>
-				<td>3</td>
-				<td>4</td>
-			</tr>
-		</table>
-	</div>
+  <div class="flex items-center">
+    <p>Attacker's Weapon Skill</p>
+    <table class="table-auto w-full">
+      <caption>Defender's Weapon Skill</caption>
+      <tr>
+        <td>X</td>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>
+        <td>8</td>
+        <td>9</td>
+        <td>10</td>
+      </tr>
+      <tr class="bg-gray-200">
+        <td>1</td>
+        <td>4</td>
+        <td>4</td>
+        <td>5</td>
+        <td>5</td>
+        <td>5</td>
+        <td>5</td>
+        <td>5</td>
+        <td>5</td>
+        <td>5</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>4</td>
+        <td>4</td>
+        <td>5</td>
+        <td>5</td>
+        <td>5</td>
+        <td>5</td>
+        <td>5</td>
+        <td>5</td>
+      </tr>
+      <tr class="bg-gray-200">
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+        <td>4</td>
+        <td>4</td>
+        <td>4</td>
+        <td>4</td>
+        <td>5</td>
+        <td>5</td>
+        <td>5</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+        <td>4</td>
+        <td>4</td>
+        <td>4</td>
+        <td>4</td>
+        <td>4</td>
+        <td>5</td>
+        <td>5</td>
+      </tr>
+      <tr class="bg-gray-200">
+        <td>5</td>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+        <td>4</td>
+        <td>4</td>
+        <td>4</td>
+        <td>4</td>
+        <td>4</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+        <td>4</td>
+        <td>4</td>
+        <td>4</td>
+        <td>4</td>
+        <td>4</td>
+      </tr>
+      <tr class="bg-gray-200">
+        <td>7</td>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+        <td>4</td>
+        <td>4</td>
+        <td>4</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+        <td>4</td>
+        <td>4</td>
+        <td>4</td>
+      </tr>
+      <tr class="bg-gray-200">
+        <td>9</td>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+        <td>4</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>10</td>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+        <td>3</td>
+        <td>4</td>
+      </tr>
+    </table>
+  </div>
 </CollapsibleSection>
 
 <CollapsibleSection title="Wound Chart">
-	<div class="flex items-center">
-		<p>Weapon or Attacker's Strength</p>
-		<table class="table-auto w-full">
-			<caption>Target's Toughness</caption>
-			<tr>
-				<td>X</td>
-				<td>1</td>
-				<td>2</td>
-				<td>3</td>
-				<td>4</td>
-				<td>5</td>
-				<td>6</td>
-				<td>7</td>
-				<td>8</td>
-				<td>9</td>
-				<td>10</td>
-			</tr>
-			<tr class="bg-gray-200">
-				<td>1</td>
-				<td>4</td>
-				<td>5</td>
-				<td>6</td>
-				<td>6</td>
-				<td>-</td>
-				<td>-</td>
-				<td>-</td>
-				<td>-</td>
-				<td>-</td>
-				<td>-</td>
-			</tr>
-			<tr>
-				<td>2</td>
-				<td>3</td>
-				<td>4</td>
-				<td>5</td>
-				<td>6</td>
-				<td>6</td>
-				<td>-</td>
-				<td>-</td>
-				<td>-</td>
-				<td>-</td>
-				<td>-</td>
-			</tr>
-			<tr class="bg-gray-200">
-				<td>3</td>
-				<td>2</td>
-				<td>3</td>
-				<td>4</td>
-				<td>5</td>
-				<td>6</td>
-				<td>6</td>
-				<td>-</td>
-				<td>-</td>
-				<td>-</td>
-				<td>-</td>
-			</tr>
-			<tr>
-				<td>4</td>
-				<td>2</td>
-				<td>2</td>
-				<td>3</td>
-				<td>4</td>
-				<td>5</td>
-				<td>6</td>
-				<td>6</td>
-				<td>-</td>
-				<td>-</td>
-				<td>-</td>
-			</tr>
-			<tr class="bg-gray-200">
-				<td>5</td>
-				<td>2</td>
-				<td>2</td>
-				<td>2</td>
-				<td>3</td>
-				<td>4</td>
-				<td>5</td>
-				<td>6</td>
-				<td>6</td>
-				<td>-</td>
-				<td>-</td>
-			</tr>
-			<tr>
-				<td>6</td>
-				<td>2</td>
-				<td>2</td>
-				<td>2</td>
-				<td>2</td>
-				<td>3</td>
-				<td>4</td>
-				<td>5</td>
-				<td>6</td>
-				<td>6</td>
-				<td>-</td>
-			</tr>
-			<tr class="bg-gray-200">
-				<td>7</td>
-				<td>2</td>
-				<td>2</td>
-				<td>2</td>
-				<td>2</td>
-				<td>2</td>
-				<td>3</td>
-				<td>4</td>
-				<td>5</td>
-				<td>6</td>
-				<td>6</td>
-			</tr>
-			<tr>
-				<td>8</td>
-				<td>2</td>
-				<td>2</td>
-				<td>2</td>
-				<td>2</td>
-				<td>2</td>
-				<td>2</td>
-				<td>3</td>
-				<td>4</td>
-				<td>5</td>
-				<td>6</td>
-			</tr>
-			<tr class="bg-gray-200">
-				<td>9</td>
-				<td>2</td>
-				<td>2</td>
-				<td>2</td>
-				<td>2</td>
-				<td>2</td>
-				<td>2</td>
-				<td>2</td>
-				<td>3</td>
-				<td>4</td>
-				<td>5</td>
-			</tr>
-			<tr>
-				<td>10</td>
-				<td>2</td>
-				<td>2</td>
-				<td>2</td>
-				<td>2</td>
-				<td>2</td>
-				<td>2</td>
-				<td>2</td>
-				<td>2</td>
-				<td>3</td>
-				<td>4</td>
-			</tr>
-		</table>
-	</div>
+  <div class="flex items-center">
+    <p>Weapon or Attacker's Strength</p>
+    <table class="table-auto w-full">
+      <caption>Target's Toughness</caption>
+      <tr>
+        <td>X</td>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>
+        <td>8</td>
+        <td>9</td>
+        <td>10</td>
+      </tr>
+      <tr class="bg-gray-200">
+        <td>1</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+        <td>6</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+        <td>6</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+      </tr>
+      <tr class="bg-gray-200">
+        <td>3</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+        <td>6</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>2</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+        <td>6</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+      </tr>
+      <tr class="bg-gray-200">
+        <td>5</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+        <td>6</td>
+        <td>-</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+        <td>6</td>
+        <td>-</td>
+      </tr>
+      <tr class="bg-gray-200">
+        <td>7</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+        <td>6</td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+      </tr>
+      <tr class="bg-gray-200">
+        <td>9</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>10</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+      </tr>
+    </table>
+  </div>
 </CollapsibleSection>
 
-<CollapsibleSection title="Critical Hit Chart">
-	<table class="border-separate border-spacing-r-2">
-		<tr class="font-bold">
-			<td>Roll</td>
-			<td>Effect</td>
-		</tr>
-		<tr>
-			<td>1-2</td>
-			<td
-				>Wound doubled to 2 wounds. Roll any armour saves <span class="italic">before</span> doubling
-				the wound.</td
-			>
-		</tr>
-		<tr>
-			<td>3-4</td>
-			<td>Wound doubled to 2 wounds. Ignore all armour saves.</td>
-		</tr>
-		<tr>
-			<td>5-6</td>
-			<td>Wound doubled to 2 wounds. Ignore all armour saves. Gain +2 to all injury rolls.</td>
-		</tr>
-	</table>
-	<p class="">
-		<span class="text-gray-700 font-semibold">NOTE</span>
+<CollapsibleSection title="Generic Critical Hit Chart">
+  <table class="border-separate border-spacing-r-2">
+    <tr class="font-bold">
+      <td>Roll</td>
+      <td>Effect</td>
+    </tr>
+    <tr>
+      <td>1-2</td>
+      <td
+        >Wound doubled to 2 wounds. Roll any armour saves <span class="italic">before</span> doubling
+        the wound.</td
+      >
+    </tr>
+    <tr>
+      <td>3-4</td>
+      <td>Wound doubled to 2 wounds. Ignore all armour saves.</td>
+    </tr>
+    <tr>
+      <td>5-6</td>
+      <td>Wound doubled to 2 wounds. Ignore all armour saves. Gain +2 to all injury rolls.</td>
+    </tr>
+  </table>
+  <p class="">
+    <span class="text-gray-700 font-semibold">NOTE</span>
 
-		If a critital hit causes more than 1 wound, and the weapon the attacking model is using normally
-		causes several wounds, then use the one that causes the <span class="italic">most</span> damage.
-	</p>
+    If a critital hit causes more than 1 wound, and the weapon the attacking model is using normally
+    causes several wounds, then use the one that causes the <span class="italic">most</span> damage.
+  </p>
+</CollapsibleSection>
+
+<CollapsibleSection title="Missile Weapons Critial Hit Chart">
+  <p class="italic">Bows, Crossbows, Black Powder Weapons,Throwing Knives, etc.</p>
+  <table class="border-separate border-spacing-r-2">
+    <tr class="font-bold">
+      <td>Roll</td>
+      <td>Effect</td>
+    </tr>
+    <tr>
+      <td>1-2</td>
+      <td><span class="font-semibold">Weak Spot</span> Ignore all armour saves</td>
+    </tr>
+    <tr>
+      <td>3-4</td>
+      <td
+        ><span class="font-semibold">Ricochet</span>
+        The closest model within 6" is also hit. Roll to wound and take saves as normal for both targets</td
+      >
+    </tr>
+    <tr>
+      <td>5-6</td>
+      <td
+        ><span class="font-semibold">Master Shot</span> Missle hits an eye, throat, or some other vulnerable
+        part. Target suffers 2 wounds instead of 1, no armour save.</td
+      >
+    </tr>
+  </table>
+</CollapsibleSection>
+
+<CollapsibleSection title="Bludgeoning Critial Hit Chart" collapsed={false}>
+  <p class="italic">Clubs, maces, hammers, flails, etc.</p>
+  <table class="border-separate border-spacing-r-2">
+    <tr class="font-bold">
+      <td>Roll</td>
+      <td>Effect</td>
+    </tr>
+    <tr>
+      <td>1-2</td>
+      <td
+        ><span class="font-semibold">Hammered</span> Target is knocked off balance. Your opponent may
+        not fight this turn, if he hasn't already.</td
+      >
+    </tr>
+    <tr>
+      <td>3-4</td>
+      <td
+        ><span class="font-semibold">Clubbed</span>
+        Ignore armour saves and saves from helmets</td
+      >
+    </tr>
+    <tr>
+      <td>5</td>
+      <td
+        ><span class="font-semibold">Wild Sweep</span> Your opponent's weapon is knocked from his hands.
+        He he's carrying 2, roll to see which one he loses. He must fight with whatever backup weapon
+        he has (or unarmed) for the rest of this combat.</td
+      >
+    </tr>
+    <tr>
+      <td>6</td>
+      <td
+        ><span class="font-semibold">Bludgeoned</span> Victim is automatically out of actions if he
+        fails his armour save,
+        <span class="italic">even if he has several wounds remaining</span>.</td
+      >
+    </tr>
+  </table>
+</CollapsibleSection>
+
+<CollapsibleSection title="Bladed Weapons Critial Hit Chart">
+  <p class="italic">Swords, axes, etc.</p>
+  <table class="border-separate border-spacing-r-2">
+    <tr class="font-bold">
+      <td>Roll</td>
+      <td>Effect</td>
+    </tr>
+    <tr>
+      <td>1-2</td>
+      <td><span class="font-semibold">Flesh Wound</span> No armour save.</td>
+    </tr>
+    <tr>
+      <td>3-4</td>
+      <td
+        ><span class="font-semibold">Bladestorm</span>
+        Attack causes 2 wounds instead of 1. Take armour saves separately for each. If an attack causes
+        multiple wounds for other reasons as well,
+        <span class="italic">take the highest number, not combined</span>.</td
+      >
+    </tr>
+    <tr>
+      <td>5-6</td>
+      <td
+        ><span class="font-semibold">Sliced!</span> Ignore armous saves, cause 2 wounds, and gain +2
+        to any injury rolls</td
+      >
+    </tr>
+  </table>
+</CollapsibleSection>
+
+<CollapsibleSection title="Unarmed Critial Hit Chart">
+  <p class="italic">Wardogs, warhorses, zombies, possessed, animals, etc.</p>
+  <table class="border-separate border-spacing-r-2">
+    <tr class="font-bold">
+      <td>Roll</td>
+      <td>Effect</td>
+    </tr>
+    <tr>
+      <td>1-2</td>
+      <td
+        ><span class="font-semibold">Body Blow</span> Opponent staggers, allowing you to make an additional
+        attack. Immediately roll to hit and wound, all saves taken as normal.</td
+      >
+    </tr>
+    <tr>
+      <td>3-4</td>
+      <td
+        ><span class="font-semibold">Crushing Blow</span> +1 to injury roll if opponent fails his saves</td
+      >
+    </tr>
+    <tr>
+      <td>5-6</td>
+      <td
+        ><span class="font-semibold">Mighty Blow</span> Ignore armour saves and gain +2 to injury rolls.</td
+      >
+    </tr>
+  </table>
 </CollapsibleSection>
 
 <style>
-	div > p {
-		writing-mode: vertical-lr;
-	}
+  div > p {
+    writing-mode: vertical-lr;
+  }
 </style>
