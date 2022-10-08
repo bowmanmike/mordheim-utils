@@ -420,7 +420,7 @@
   </table>
 </CollapsibleSection>
 
-<CollapsibleSection title="Bludgeoning Critial Hit Chart" collapsed={false}>
+<CollapsibleSection title="Bludgeoning Critial Hit Chart">
   <p class="italic">Clubs, maces, hammers, flails, etc.</p>
   <table class="border-separate border-spacing-r-2">
     <tr class="font-bold">
