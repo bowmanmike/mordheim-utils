@@ -519,6 +519,38 @@
   </table>
 </CollapsibleSection>
 
+<CollapsibleSection title="Thrusting Weapons">
+  <p class="italic">Spears, halberds, lances, etc.</p>
+  <table class="border-separate border-spacing-r-2">
+    <tr class="font-bold">
+      <td>Roll</td>
+      <td>Effect</td>
+    </tr>
+    <tr>
+      <td>1-2</td>
+      <td
+        ><span class="font-semibold">Stap</span> +1 to any injury rolls. Armour saves taken normally</td
+      >
+    </tr>
+    <tr>
+      <td>3-4</td>
+      <td
+        ><span class="font-semibold">Thrust</span> Target is automatically knocked down. Take armour
+        saves as normal and see whether the model suffers a wound.</td
+      >
+    </tr>
+    <tr>
+      <td>5-6</td>
+      <td
+        ><span class="font-semibold">Kebab!</span> Ignore armous saves, gain +2 to any injury rolls.
+        Victim is knocked backwards D6" and the attacker follows, staying in base contact. Any other
+        models involved in the combat are separated and only the attacker and target stay in combat.
+        If the target collides with another model, the other model takes one S3 hit.</td
+      >
+    </tr>
+  </table>
+</CollapsibleSection>
+
 <style>
   div > p {
     writing-mode: vertical-lr;
