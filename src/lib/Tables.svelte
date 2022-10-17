@@ -519,7 +519,7 @@
   </table>
 </CollapsibleSection>
 
-<CollapsibleSection title="Thrusting Weapons">
+<CollapsibleSection title="Thrusting Weapons Critical Hit Chart">
   <p class="italic">Spears, halberds, lances, etc.</p>
   <table class="border-separate border-spacing-r-2">
     <tr class="font-bold">
