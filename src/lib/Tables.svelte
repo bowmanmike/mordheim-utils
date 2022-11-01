@@ -4,7 +4,7 @@
 
 <CollapsibleSection title="Ranged Weapons To Hit">
   <table class="w-full">
-    <tr class="border-gray-800 border-b">
+    <tr class="border-b border-gray-800">
       <td class="font-bold">BS Of Shooter</td>
       <td>1</td>
       <td>2</td>
@@ -34,7 +34,7 @@
 </CollapsibleSection>
 
 <CollapsibleSection title="Ranged Hit Modifiers">
-  <table class="border-separate border-spacing-r-2">
+  <table class="border-spacing-r-2 border-separate">
     <tr>
       <td>-1</td>
       <td>Cover</td>
@@ -61,7 +61,7 @@
 <CollapsibleSection title="Close Combat To Hit">
   <div class="flex items-center">
     <p>Attacker's Weapon Skill</p>
-    <table class="table-auto w-full">
+    <table class="w-full table-auto">
       <caption>Defender's Weapon Skill</caption>
       <tr>
         <td>X</td>
@@ -213,7 +213,7 @@
 <CollapsibleSection title="Wound Chart">
   <div class="flex items-center">
     <p>Weapon or Attacker's Strength</p>
-    <table class="table-auto w-full">
+    <table class="w-full table-auto">
       <caption>Target's Toughness</caption>
       <tr>
         <td>X</td>
@@ -363,7 +363,7 @@
 </CollapsibleSection>
 
 <CollapsibleSection title="Generic Critical Hit Chart">
-  <table class="border-separate border-spacing-r-2">
+  <table class="border-spacing-r-2 border-separate">
     <tr class="font-bold">
       <td>Roll</td>
       <td>Effect</td>
@@ -385,7 +385,7 @@
     </tr>
   </table>
   <p class="">
-    <span class="text-gray-700 font-semibold">NOTE</span>
+    <span class="font-semibold text-gray-700">NOTE</span>
 
     If a critital hit causes more than 1 wound, and the weapon the attacking model is using normally
     causes several wounds, then use the one that causes the <span class="italic">most</span> damage.
@@ -394,7 +394,7 @@
 
 <CollapsibleSection title="Missile Weapons Critial Hit Chart">
   <p class="italic">Bows, Crossbows, Black Powder Weapons,Throwing Knives, etc.</p>
-  <table class="border-separate border-spacing-r-2">
+  <table class="border-spacing-r-2 border-separate">
     <tr class="font-bold">
       <td>Roll</td>
       <td>Effect</td>
@@ -422,7 +422,7 @@
 
 <CollapsibleSection title="Bludgeoning Critial Hit Chart">
   <p class="italic">Clubs, maces, hammers, flails, etc.</p>
-  <table class="border-separate border-spacing-r-2">
+  <table class="border-spacing-r-2 border-separate">
     <tr class="font-bold">
       <td>Roll</td>
       <td>Effect</td>
@@ -462,7 +462,7 @@
 
 <CollapsibleSection title="Bladed Weapons Critial Hit Chart">
   <p class="italic">Swords, axes, etc.</p>
-  <table class="border-separate border-spacing-r-2">
+  <table class="border-spacing-r-2 border-separate">
     <tr class="font-bold">
       <td>Roll</td>
       <td>Effect</td>
@@ -492,7 +492,7 @@
 
 <CollapsibleSection title="Unarmed Critial Hit Chart">
   <p class="italic">Wardogs, warhorses, zombies, possessed, animals, etc.</p>
-  <table class="border-separate border-spacing-r-2">
+  <table class="border-spacing-r-2 border-separate">
     <tr class="font-bold">
       <td>Roll</td>
       <td>Effect</td>
@@ -521,7 +521,7 @@
 
 <CollapsibleSection title="Thrusting Weapons Critical Hit Chart">
   <p class="italic">Spears, halberds, lances, etc.</p>
-  <table class="border-separate border-spacing-r-2">
+  <table class="border-spacing-r-2 border-separate">
     <tr class="font-bold">
       <td>Roll</td>
       <td>Effect</td>

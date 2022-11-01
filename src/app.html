@@ -1,20 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%sveltekit.assets%/favicon.png" />
+    <meta name="viewport" content="width=device-width" />
+    <style>
+      /* body { */
+      /*   min-height: 100vh; */
+      /* } */
+    </style>
+    %sveltekit.head%
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <link rel="icon" href="%sveltekit.assets%/favicon.png" />
-  <meta name="viewport" content="width=device-width" />
-  <style>
-    /* body { */
-    /*   min-height: 100vh; */
-    /* } */
-  </style>
-  %sveltekit.head%
-</head>
-
-<body class="bg-gray-50 text-gray-800">
-  <div class="max-w-7xl mx-auto my-4">%sveltekit.body%</div>
-</body>
-
+  <body class="bg-gray-50 text-gray-800">
+    <div class="mx-auto my-4 max-w-7xl">%sveltekit.body%</div>
+  </body>
 </html>
